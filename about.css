@@ -1,0 +1,151 @@
+.navbar{
+    background-color: lightgray;
+}
+.navbar-brand{
+    margin-left: 10%;
+}
+.navbar-nav{
+    margin-left: 40%;
+}
+.nav-item{
+    padding-right: 20px;
+}
+.navbar-toggler{
+    background-color: blue;
+    color: white;
+    width: fit-content;
+}
+.navbar-brand,.navbar-nav,.nav-item,.nav-link{
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+a{
+    text-decoration: none;
+}
+#b1{
+    width: 90px;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    margin-top: 15px;
+    background-color: #0067da;
+}
+#b1:hover{
+    background-color: red;
+}
+#abs{
+    text-align: center;
+    color: white;
+    font-size: 42px;
+    padding-top: 200px;
+}
+ol{
+    list-style: none;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    padding-top: 20px;
+}
+#li1{
+    display: inline-block;
+    padding-right: 0.5rem;
+    color: white;
+}
+.first{
+    width: 100vw;
+    height: 60vh;
+    background-image: url(https://kayzer.netlify.app/img/bg-img/wavy-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#div1{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin-left: 10%;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.img1{
+    width: 500px;
+    height: 580px;
+}
+#dd1{
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: left;
+    background-color: blue;
+}
+#img2{
+    margin: 30px 10px;
+}
+#p1{
+    font-size: 20px;
+    margin: 25px 10px;
+}
+#p2{
+    margin: 15px 10px;
+}
+#div2{
+    width: 600px;
+    height: 580px;
+    margin-bottom: 50px;
+}
+ul{
+    list-style: url(https://kayzer.netlify.app/img/icons/check.png);
+    padding-left: 70px;
+    margin-top: 30px;
+}
+li{
+    line-height: 50px;
+    font-weight: 500;
+}
+.second{
+    display: flex;
+    justify-content: left;
+    margin-top: 50px;
+}
+@media screen and (max-width:500px) {
+    .second{
+        flex-direction: column;
+    }
+}
+
+.div3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+#dd2{
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 5px 30px rgb(0 0 0 / 15%);
+    background-color: white;
+}
+.third{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 50px;
+    padding-top: 50px;
+    text-align: center;
+    background-image: url(https://kayzer.netlify.app/img/core-img/map.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media screen and (max-width:500px) {
+    .div3{
+        flex-direction: column;
+    }
+}
