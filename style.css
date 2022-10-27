@@ -335,51 +335,55 @@ ol{
 
 #para4{
     padding-top: 70px;
+    text-align: center;
 }
 #div5{
     margin-top: 100px;
     margin-left: 10%;
     margin-right: 10%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: left;
 }
 #dd5{
     width: 500px;
-    height: 450px;
+    height: 550px;
     margin-bottom: 100px;
-    margin-right: 20px;
+    margin-right: 100px;
 }
 .img3{
     width: 500px;
-    height:440px;
+    height:550px;
 }
 #dd6{
     width: 550px;
-    height: 450px;
-    margin-top: 10px;
-    margin-bottom: 100px;
+    height: 550px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
-#p7{
-    text-align: left;
-    padding-left: 20px;
-    margin-top: 10px;
+#ques{
     margin-bottom: 20px;
 }
-#dd7{
-    width: 550px;
+#q1,#q2,#q3,#q4,#q5{
+    box-sizing: border-box;
     height: 50px;
-    border: none;
-    text-align: left;
-    background-color: blue;
-    color: white;
-    margin-bottom: 10px;
+    font-size: 20px;
     padding-left: 20px;
-    font-size: large;
-    padding-top: 5px;
+    padding-top: 7px;
+    color: white;
+    background-color: blue;
+}
+.ans{
+    max-height: 0;
+    overflow: hidden;
+}
+.ans p{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+#ques:target .ans{
+    max-height: 50px;
 }
 #seventh{
-    text-align: center;
     background-image: url(https://kayzer.netlify.app/img/bg-img/bread-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -388,19 +392,22 @@ ol{
 @media screen and (max-width:500px) {
     #div5{
         flex-direction: column;
+        margin: 0;
+        margin-top: 100px;
     }
     #dd5{
-        margin: 0;
         width: 450px;
+        margin: 0 10px 100px 10px;
+    }
+    #q1,#q2,#q3,#q4,#q5{
+        font-size: 18px;
     }
     .img3{
         width: 450px;
     }
     #dd6{
         width: 450px;
-    }
-    #dd7{
-        width: 450px;
+        margin: 0 10px;
     }
     #seventh{
         width: 480px;

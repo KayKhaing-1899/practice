@@ -1,5 +1,4 @@
 .navi{
-    display: flex;
     color: white;
     font-weight: 500;
     letter-spacing: 1px;
@@ -8,20 +7,19 @@ a{
     text-decoration: none;
     color: white;
 }
-#logo{
-    color: white;
-    font-weight: 500;
-    letter-spacing: 1px;
-    margin-left: 10%;
+ul{
+    display: inline;
 }
 .n1{
-    padding-left: 500px;
+    padding-left: 450px;
     padding-right: 30px;
-    padding-top: 15px;
 }
 .n2,.n3,.n4,.n5{
     padding-right: 30px;
     padding-top: 15px;
+}
+#logo{
+    margin-left: 10%;
 }
 #b1{
     width: 90px;
