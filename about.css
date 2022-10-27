@@ -1,27 +1,27 @@
-.navbar{
-    background-color: lightgray;
-}
-.navbar-brand{
-    margin-left: 10%;
-}
-.navbar-nav{
-    margin-left: 40%;
-}
-.nav-item{
-    padding-right: 20px;
-}
-.navbar-toggler{
-    background-color: blue;
-    color: white;
-    width: fit-content;
-}
-.navbar-brand,.navbar-nav,.nav-item,.nav-link{
+.navi{
+    display: flex;
     color: white;
     font-weight: 500;
     letter-spacing: 1px;
 }
 a{
     text-decoration: none;
+    color: white;
+}
+#logo{
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-left: 10%;
+}
+.n1{
+    padding-left: 500px;
+    padding-right: 30px;
+    padding-top: 15px;
+}
+.n2,.n3,.n4,.n5{
+    padding-right: 30px;
+    padding-top: 15px;
 }
 #b1{
     width: 90px;
@@ -29,7 +29,7 @@ a{
     border: none;
     border-radius: 3px;
     color: white;
-    margin-top: 15px;
+    margin-top: 10px;
     background-color: #0067da;
 }
 #b1:hover{
@@ -39,7 +39,7 @@ a{
     text-align: center;
     color: white;
     font-size: 42px;
-    padding-top: 200px;
+    padding-top: 150px;
 }
 ol{
     list-style: none;
@@ -59,6 +59,14 @@ ol{
     background-image: url(https://kayzer.netlify.app/img/bg-img/wavy-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+@media screen and (max-width: 500px) {
+    .first{
+        width: 480px;
+    }
+    #logo{
+        margin-left: 20px;
+    }
 }
 
 #div1{
@@ -117,13 +125,26 @@ li{
     .second{
         flex-direction: column;
     }
+    #div1{
+        width: 460px;
+        margin: 0;
+        margin-bottom: 50px;
+    }
+    .img1{
+        width: 460px;
+        padding: 0 10px;
+    }
+    #div2{
+        width: 480px;
+        margin-bottom: 0;
+    }
 }
 
 .div3{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 #dd2{
     width: 300px;
@@ -147,5 +168,9 @@ li{
 @media screen and (max-width:500px) {
     .div3{
         flex-direction: column;
+        width: 480px;
+    }
+    #dd2{
+        margin-right: 0;
     }
 }
