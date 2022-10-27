@@ -136,7 +136,6 @@ li{
     }
     #div2{
         width: 480px;
-        margin-bottom: 0;
     }
 }
 
@@ -172,5 +171,8 @@ li{
     }
     #dd2{
         margin-right: 0;
+    }
+    .third{
+        width: 480px;
     }
 }
