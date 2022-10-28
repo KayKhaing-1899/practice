@@ -358,30 +358,33 @@ ol{
     width: 550px;
     height: 550px;
     margin-top: 50px;
-    margin-bottom: 50px;
 }
-#ques{
+#ques-ans{
     margin-bottom: 20px;
 }
-#q1,#q2,#q3,#q4,#q5{
+#ques{
     box-sizing: border-box;
     height: 50px;
     font-size: 20px;
     padding-left: 20px;
     padding-top: 7px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: blue;
+}
+.qbtn{
+    border: none;
     color: white;
     background-color: blue;
 }
 .ans{
-    max-height: 0;
-    overflow: hidden;
+    display: none;
 }
-.ans p{
+#ap{
     padding-left: 20px;
-    padding-top: 10px;
 }
-#ques:target .ans{
-    max-height: 50px;
+.show-text .ans{
+    display: block;
 }
 #seventh{
     background-image: url(https://kayzer.netlify.app/img/bg-img/bread-bg.jpg);
@@ -399,14 +402,15 @@ ol{
         width: 450px;
         margin: 0 10px 100px 10px;
     }
-    #q1,#q2,#q3,#q4,#q5{
+    #ques{
         font-size: 18px;
+        padding-top: 10px;
     }
     .img3{
         width: 450px;
     }
     #dd6{
-        width: 450px;
+        width: 460px;
         margin: 0 10px;
     }
     #seventh{
