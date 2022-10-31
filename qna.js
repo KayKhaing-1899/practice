@@ -1,8 +1,8 @@
 const questions = document.querySelectorAll('#ques-ans')
 
 questions.forEach(function(q) {
-    const btn = q.querySelector('.qbtn')
     questions[0].classList.toggle("show-text")
+    const btn = q.querySelector('.qbtn')
     btn.addEventListener("click",function() {
         questions.forEach(function(i) {
             if (q !== i) {

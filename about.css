@@ -1,5 +1,5 @@
 .navbar{
-    background-color: darkblue;
+    background-color: lightgray;
 }
 .navbar-brand{
     margin-left: 10%;
@@ -61,9 +61,6 @@ ol{
 @media screen and (max-width: 500px) {
     .first{
         width: 100%;
-    }
-    .navbar{
-        background-color: lightgray;
     }
     .navbar-brand{
         margin-left: 20px;
