@@ -22,7 +22,7 @@ html{
     color: black;
     letter-spacing: 1px;
     font-weight: 500;
-    padding-right: 20px;
+    padding-right: 30px;
 }
 a{
     text-decoration: none;
@@ -85,6 +85,7 @@ h2{
     }
     .navbar-nav{
         padding-left: 30px;
+        border-top: 3px solid black;
     }
     .navbar-toggler{
         margin-right: 20px;
