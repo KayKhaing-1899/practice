@@ -20,6 +20,9 @@
     background-color: blue;
     width: fit-content;
 }
+a{
+    text-decoration: none;
+}
 #b1{
     width: 80px;
     height: 30px;
@@ -182,6 +185,79 @@ ol li{
         margin-right: 0;
     }
     .fourth{
+        width: 100%;
+    }
+}
+
+.div5{
+    height: 200px;
+    display: flex;
+    justify-content: left;
+    margin: 0 10%;
+    background-color: blue;
+}
+#dd4{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+#dd5{
+    margin-left: 300px;
+    margin-top: 70px;
+}
+#b2{
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: orangered;
+    border: none;
+    border-radius: 30px;
+}
+.div6{
+    display: flex;
+    justify-content: left;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+#dd6{
+    width: 250px;
+    height: 300px;
+    margin-right: 50px;
+}
+i{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    padding-top: 7px;
+    background: rgb(0, 103, 218);
+}
+.fifth{
+    margin-top: 100px;
+    padding-top: 100px;
+    background: url(https://kayzer.netlify.app/img/bg-img/bread-bg.jpg) center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media screen and (max-width:500px) {
+    .div5{
+        width: 460px;
+        margin: 0 10px;
+        flex-direction: column;
+    }
+    #dd4,#dd5{
+        margin: 20px 0;
+        padding-left: 10px;
+    }
+    .div6{
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    #dd6{
+        margin-right: 0;
+    }
+    .fifth{
         width: 100%;
     }
 }
