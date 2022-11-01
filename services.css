@@ -117,6 +117,7 @@ ol li{
     height: 500px;
     border: 2px solid blue;
     position: absolute;
+    background-color: white;
     bottom: 120px;
     left: 70%;
     transform: translateX(-70%);
@@ -136,10 +137,10 @@ ol li{
     height: 100vh;
     margin-top: 100px;
     position: relative;
-    background-image: url(https://kayzer.netlify.app/img/bg-img/bg-4.jpg) center center;
+    background-image: url(https://kayzer.netlify.app/img/bg-img/bg-4.jpg);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 2px solid red;
 }
 @media screen and (max-width:500px) {
     .div2{
@@ -168,6 +169,10 @@ ol li{
 .fourth{
     margin-top: 100px;
     text-align: center;
+    background-image: url(https://kayzer.netlify.app/img/core-img/map.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
 }
 @media screen and (max-width:500px) {
     .div4{
