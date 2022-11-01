@@ -141,6 +141,7 @@ ol{
     }
     #dd1{
         width:460px;
+        margin-left: 10px;
         margin-right: 0;
     }
     .img1{
@@ -163,7 +164,7 @@ ol{
 .div2{
     display: flex;
     justify-content: left;
-    margin: 100px 10% 50px 10%;
+    margin: 100px 10%;
 }
 #dd3,#dd4,#dd5,#dd6{
     width: 400px;
@@ -174,7 +175,7 @@ ol{
     border: none;
 }
 #dd3,#dd5{
-    margin-top: 30px;
+    margin-top: 50px;
 }
 .third{
     text-align: center;
@@ -198,5 +199,86 @@ ol{
     }
     #dd3,#dd5{
         margin-top: 0;
+    }
+}
+
+.div3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 10%;
+}
+#dd7{
+    width: 330px;
+    height: 230px;
+    margin-right: 50px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 0 5px 30px rgb(0 0 0 / 15%);
+    background-color: white;
+}
+#hh{
+    color: darkblue;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 5px solid blue;
+}
+#b3{
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 40px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.fourth{
+    margin-top: 100px;
+}
+@media screen and (max-width:500px) {
+    .div3{
+        flex-direction: column;
+    }
+    #dd7{
+        width: 400px;
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+}
+
+.div4{
+    display: flex;
+    justify-content: left;
+    margin: 0 10%;
+}
+#dd8{
+    width: 400px;
+    height: 300px;
+    margin-right: 30px;
+}
+i{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    padding-top: 7px;
+    background: rgb(0, 103, 218);
+}
+.fifth{
+    margin-top: 100px;
+    padding-top: 100px;
+    background: #192057;
+}
+@media screen and (max-width:500px) {
+    .div4{
+        flex-direction: column;
+        margin: 0 20px;
+    }
+    #dd8{
+        margin-right: 0;
     }
 }
