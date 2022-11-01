@@ -142,8 +142,9 @@ ul{
     }
     #div1{
         width: 460px;
-        margin: 0 10px;
-        margin-bottom: 100px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 150px;
     }
     .img1{
         width: 460px;

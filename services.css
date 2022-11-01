@@ -1,0 +1,182 @@
+.navbar{
+    background-color: lightgray;
+}
+.navbar-brand{
+    margin-left: 10%;
+}
+.navbar-nav{
+    margin-left: 500px;
+}
+.nav-item{
+    padding-right: 30px;
+}
+.navbar-brand,.navbar-nav,.nav-item,.nav-link{
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.navbar-toggler{
+    color: white;
+    background-color: blue;
+    width: fit-content;
+}
+#b1{
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: blue;
+}
+#b1:hover{
+    background-color: red;
+}
+#serv{
+    color: white;
+    padding-left: 700px;
+    font-size: 42px;
+    padding-top: 200px;
+}
+ol{
+    color: white;
+    list-style: none;
+    text-align: center;
+}
+ol li{
+    display: inline;
+    font-size: 14px;
+    padding-right: 10px;
+}
+.first{
+    width: 100vw;
+    height: 60vh;
+    background-image: url(https://kayzer.netlify.app/img/bg-img/wavy-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media screen and (max-width:500px) {
+    .navbar-brand{
+        margin-left: 20px;
+    }
+    .navbar-nav{
+        margin: 10px 0;
+        padding-left: 30px;
+        border-top: 3px solid black;
+    }
+    .navbar-toggler{
+        margin-right: 20px;
+    }
+    .navbar-brand,.navbar-nav,.nav-item,.nav-link{
+        color: black;
+    }
+    #serv{
+        padding-left: 170px;
+    }
+    .first{
+        width: 100%;
+    }
+}
+
+.para1{
+    text-align: center;
+}
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 150px;
+}
+#dd1{
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    background-image: url(https://kayzer.netlify.app/img/bg-img/bread-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.second{
+    margin-top: 100px;
+}
+@media screen and (max-width:500px) {
+    .second{
+        width: 100%;
+    }
+    .div1{
+        flex-direction: column;
+    }
+    #dd1{
+        margin-right: 0;
+    }
+}
+
+.div2{
+    width: 500px;
+    height: 500px;
+    border: 2px solid blue;
+    position: absolute;
+    bottom: 120px;
+    left: 70%;
+    transform: translateX(-70%);
+}
+.div3{
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+#dd2{
+    margin-right: 100px;
+    margin-bottom: 30px;
+}
+.third{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 100px;
+    position: relative;
+    background-image: url(https://kayzer.netlify.app/img/bg-img/bg-4.jpg) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid red;
+}
+@media screen and (max-width:500px) {
+    .div2{
+        width: 460px;
+    }
+    .div3{
+        flex-direction: column;
+    }
+    .third{
+        width: 100%;
+    }
+}
+
+.div4{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#dd3{
+    width: 400px;
+    height: 300px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+.fourth{
+    margin-top: 100px;
+    text-align: center;
+}
+@media screen and (max-width:500px) {
+    .div4{
+        flex-direction: column;
+    }
+    #dd3{
+        margin-right: 0;
+    }
+    .fourth{
+        width: 100%;
+    }
+}
