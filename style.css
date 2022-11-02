@@ -5,7 +5,7 @@ html{
 }
 
 .navbar{
-    background-color: lightgray;
+    background-color: rgb(215, 223, 239);
 }
 .navbar-brand{
     margin-left: 10%;
@@ -444,10 +444,10 @@ ol{
     width: 150px;
     height: 50px;
     text-align: center;
-    font-size: large;
+    font-size: 18px;
     font-weight: 500;
     background-color: blue;
-    color: white;
+    color: #fff;
     border: none;
     border-radius: 30px;
 }
@@ -492,10 +492,10 @@ ol{
     width: 150px;
     height: 50px;
     text-align: center;
-    font-size: large;
+    font-size: 18px;
     font-weight: 500;
-    color: white;
-    background-color: lightcoral;
+    color: #fff;
+    background: lightcoral;
     border: none;
     border-radius: 30px;
 }
