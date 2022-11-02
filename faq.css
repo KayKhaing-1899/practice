@@ -25,10 +25,10 @@ a{
     text-decoration: none;
 }
 #b1{
-    width: 90px;
+    width: 100px;
     height: 35px;
     border: none;
-    border-radius: 3px;
+    border-radius: 5px;
     color: white;
     background-color: #0067da;
 }
@@ -66,18 +66,18 @@ ol{
         margin-left: 20px;
     }
     .navbar-nav{
-        padding-left: 30px;
+        padding-left: 50px;
         margin-top: 0;
         border-top: 3px solid black;
     }
     .nav-item{
-        margin: 0;
+        margin-bottom: 10px;
+    }
+    #b1{
+        margin-top: 20px;
     }
     .navbar-toggler{
         margin-right: 20px;
-    }
-    .nav-item,.navbar-nav,.nav-link,.navbar-brand{
-        color: black;
     }
     #faq{
         margin-left: 120px;
