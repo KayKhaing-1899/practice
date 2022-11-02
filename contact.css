@@ -1,0 +1,75 @@
+.navbar{
+    background-color: lightgray;
+}
+.navbar-brand{
+    margin-left: 10%;
+}
+.navbar-nav{
+    padding-left: 500px;
+    margin-top: 0;
+}
+.nav-item{
+    margin-right: 30px;
+}
+.navbar-toggler{
+    background-color: blue;
+    color: white;
+    width: fit-content;
+}
+.nav-item,.navbar-nav,.nav-link,.navbar-brand{
+    color: black;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+}
+#b1{
+    width: 90px;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: #0067da;
+}
+#b1:hover{
+    background-color: red;
+}
+#contact{
+    margin-left: 675px;
+    color: white;
+    font-size: 42px;
+    padding-top: 200px;
+}
+ol{
+    list-style: none;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+#li1{
+    display: inline-block;
+    padding-right: 0.5rem;
+    color: white;
+}
+.first{
+    height: 60vh;
+    background-image: url(https://kayzer.netlify.app/img/bg-img/wavy-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media screen and (max-width:500px) {
+    .navbar-brand{
+        margin-left: 20px;
+    }
+    .navbar-toggler{
+        margin-right: 20px;
+    }
+    .navbar-nav{
+        padding-left: 30px;
+        border-top: 3px solid black;
+    }
+    #contact{
+        margin-left: 160px;
+    }
+}
