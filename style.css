@@ -5,7 +5,7 @@ html{
 }
 
 .navbar{
-    background-color: rgb(215, 223, 239);
+    background-color: lightgray;
 }
 .navbar-brand{
     margin-left: 10%;
@@ -22,18 +22,21 @@ html{
     color: black;
     letter-spacing: 1px;
     font-weight: 500;
-    padding-right: 30px;
+}
+.nav-item{
+    margin-right: 10px;
 }
 a{
     text-decoration: none;
 }
 #b1{
-    border: none;
+    border: 1px solid #fff;
     width: 100px;
     height: 35px;
     border-radius: 5px;
     background-color: blue;
     color: white;
+    margin-left: 50px;
 }
 #b1:hover{
     background-color: red;
@@ -91,6 +94,7 @@ h2{
     }
     #b1{
         margin-top: 20px;
+        margin-left: 0;
     }
     .navbar-toggler{
         margin-right: 20px;

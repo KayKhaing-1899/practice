@@ -8,7 +8,7 @@
     margin-left: 500px;
 }
 .nav-item{
-    padding-right: 30px;
+    padding-right: 10px;
 }
 .navbar-brand,.navbar-nav,.nav-item,.nav-link{
     color: black;
@@ -26,10 +26,11 @@ a{
 #b1{
     width: 100px;
     height: 35px;
-    border: none;
+    border: 1px solid #fff;
     border-radius: 5px;
     color: white;
     background-color: blue;
+    margin-left: 50px;
 }
 #b1:hover{
     background-color: red;
@@ -71,6 +72,7 @@ ol li{
     }
     #b1{
         margin-top: 20px;
+        margin-left: 0;
     }
     .navbar-toggler{
         margin-right: 20px;
