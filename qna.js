@@ -12,3 +12,11 @@ questions.forEach(function(q) {
         q.classList.toggle("show-text")
     })
 })
+
+window.onscroll = function() {
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80){
+        document.getElementById("navibar").style.background = "lightgray"
+    }
+    else
+        document.getElementById("navibar").style.background = "none"
+}
