@@ -67,8 +67,8 @@ ol{
         margin-left: 20px;
     }
     .navbar-nav{
-        padding-left: 50px;
-        margin-top: 0;
+        padding-left: 30px;
+        margin-top: 10px;
         border-top: 3px solid black;
     }
     .navbar-toggler{

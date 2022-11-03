@@ -5,7 +5,7 @@
     margin-left: 10%;
 }
 .navbar-nav{
-    margin-left: 500px;
+    padding-left: 500px;
 }
 .nav-item{
     padding-right: 10px;
@@ -63,8 +63,8 @@ ol li{
         margin-left: 20px;
     }
     .navbar-nav{
-        margin: 10px 0;
-        padding-left: 50px;
+        padding-left: 30px;
+        margin-top: 10px;
         border-top: 3px solid black;
     }
     .nav-item{

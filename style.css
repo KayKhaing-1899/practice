@@ -16,7 +16,7 @@ html{
     width: fit-content;
 }
 .navbar-nav{
-    padding-left: 40%;
+    padding-left: 500px;
 }
 .nav-item,.navbar-nav,.nav-link,.navbar-brand{
     color: black;
@@ -86,7 +86,8 @@ h2{
         margin-left: 20px;
     }
     .navbar-nav{
-        padding-left: 50px;
+        margin-top: 10px;
+        padding-left: 30px;
         border-top: 3px solid black;
     }
     .nav-item{
@@ -511,11 +512,11 @@ ol{
     margin-top: 50px;
 }
 #dd11{
-    width: 300px;
-    height: 250px;
+    width: 250px;
+    height: 300px;
     text-align: left;
     align-items: center;
-    margin-right: 20px;
+    margin-right: 50px;
 }
 i{
     width: 30px;
