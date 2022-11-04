@@ -74,7 +74,7 @@ h2{
     background-repeat: no-repeat;
     background-size: cover;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 990px) {
     .para1{
         margin-left: 5%;
         width: 460px;
@@ -167,16 +167,16 @@ ol{
     margin-left: 10%;
     margin-right: 10%;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 990px) {
     .second{
         flex-wrap: wrap;
         margin: 0;
         margin-top: 100px;
     }
     .left{
-        width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
     }
     .fig-cap{
         width: 80%;
@@ -217,7 +217,7 @@ ol{
     margin-right: 10%;
     margin-top: 100px;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 990px) {
     .div1{
         flex-wrap: wrap;
     }
@@ -250,7 +250,7 @@ ol{
     margin-top: 100px;
     text-align: center;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 990px) {
     .div2{
         width: 100%;
     }
@@ -287,7 +287,7 @@ ol{
     background-repeat: no-repeat;
     background-size: cover;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 990px) {
     #div3{
         flex-direction: column;
     }
@@ -324,7 +324,7 @@ ol{
     margin-left: 10%;
     margin-right: 10%;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 990px) {
     #div4{
         flex-wrap: wrap;
     }
@@ -394,23 +394,22 @@ ol{
     background-size: cover;
     margin-top: 100px;
 }
-@media screen and (max-width:900px) {
+@media screen and (max-width:990px) {
     #div5{
         flex-direction: column;
         margin: 0;
         margin-top: 100px;
     }
     #dd5{
-        width: 80%;
-        margin: 0 10% 100px 10%;
+        width: 70%;
+        margin: 0 15% 100px 15%;
     }
     #ques{
         font-size: 17px;
         padding-top: 10px;
     }
     .img3{
-        width: 80%;
-        margin: 0 10%;
+        width: 100%;
     }
     #dd6{
         width: 90%;
@@ -454,7 +453,7 @@ ol{
     margin-right: 10%;
     text-align: center;
 }
-@media screen and (max-width:900px) {
+@media screen and (max-width:990px) {
     #div6{
         flex-wrap: wrap;
     }
@@ -528,7 +527,7 @@ i{
     background-repeat: no-repeat;
     background-size: cover;
 }
-@media screen and (max-width:900px) {
+@media screen and (max-width:990px) {
     #div7{
         flex-direction: column;
         width: 94%;
@@ -548,7 +547,7 @@ i{
     #div8{
         flex-wrap: wrap;
         margin: 0;
-        margin-left: 10%;
+        margin-left: 5%;
     }
     #ninth{
         width: 100%;
