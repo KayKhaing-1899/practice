@@ -102,16 +102,17 @@ ol{
     display: flex;
     justify-content: left;
     background-color: blue;
+    border-radius: 5px;
 }
 #img2{
-    margin: 30px 10px;
+    margin: 25px 10px;
 }
 #p1{
     font-size: 20px;
-    margin: 30px 10px;
+    margin: 20px 10px;
 }
 #p2{
-    margin: 20px 10px;
+    margin: 15px 10px;
 }
 #div2{
     width: 600px;
@@ -137,16 +138,16 @@ ul{
         flex-direction: column;
     }
     #div1{
-        width: 70%;
-        margin-left: 15%;
-        margin-right: 15%;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
         margin-bottom: 150px;
     }
     .img1{
         width: 100%;
     }
     #dd1{
-        width: 90%;
+        width: 85%;
     }
     #div2{
         width: 90%;
@@ -331,6 +332,9 @@ i{
     #dd7,#dd8{
         margin: 20px 0;
         padding-left: 20px;
+    }
+    #dd9{
+        margin-right: 70px;
     }
     .fifth{
         width: 100%;

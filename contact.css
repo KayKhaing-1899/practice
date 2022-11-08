@@ -33,7 +33,7 @@ a{
     background-color: red;
 }
 #contact{
-    margin-left: 675px;
+    text-align: center;
     color: white;
     font-size: 42px;
     padding-top: 200px;
@@ -46,7 +46,7 @@ ol{
 }
 #li1{
     display: inline-block;
-    padding-right: 0.5rem;
+    padding-right: 1rem;
     color: white;
 }
 .first{
@@ -55,15 +55,15 @@ ol{
     background-repeat: no-repeat;
     background-size: cover;
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:990px) {
     .navbar-brand{
-        margin-left: 20px;
+        margin-left: 5%;
     }
     .navbar-toggler{
-        margin-right: 20px;
+        margin-right: 5%;
     }
     .navbar-nav{
-        padding-left: 30px;
+        padding-left: 70px;
         margin-top: 10px;
         border-top: 3px solid black;
     }
@@ -74,9 +74,6 @@ ol{
     #b1{
         margin-top: 20px;
         margin-left: 0;
-    }
-    #contact{
-        margin-left: 155px;
     }
 }
 
@@ -115,29 +112,23 @@ input,textarea{
     border: none;
     border-radius: 100px;
     background-color: #0067da;
-    margin-left: 700px;
+    margin-left: 45%;
 }
 .second{
     margin-top: 100px;
 }
-@media screen and (max-width:500px) {
-    .div2{
-        flex-direction: column;
-    }
+@media screen and (max-width:990px) {
     #name,#email,#subject,#message{
-        width: 460px;
+        width: 450px;
     }
     #tb1,#tb2,#tb3,#tb4{
-        margin: 10px 10px;
-    }
-    #tb1{
-        margin-right: 0;
-    }
-    #b3{
-        margin-left: 160px;
+        margin: 10px 5%;
     }
     .second{
         width: 100%;
+    }
+    #b3{
+        margin-left: 40%;
     }
 }
 
@@ -167,6 +158,7 @@ input,textarea{
 .div4{
     display: flex;
     justify-content: left;
+    flex-wrap: nowrap;
     margin-left: 10%;
     margin-top: 50px;
 }
@@ -192,10 +184,10 @@ i{
     background-repeat: no-repeat;
     background-size: cover;
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:990px) {
     .div3{
-        width: 460px;
-        margin: 0 10px;
+        width: 94%;
+        margin: 0 3%;
         flex-direction: column;
     }
     #dd1,#dd2{
@@ -203,11 +195,12 @@ i{
         padding-left: 20px;
     }
     .div4{
-        flex-direction: column;
-        margin-left: 20px;
+        flex-wrap: wrap;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     #dd3{
-        margin-right: 0;
+        margin-right: 70px;
     }
     .third{
         width: 100%;
