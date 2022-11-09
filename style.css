@@ -77,6 +77,7 @@ h2{
 @media screen and (max-width: 990px) {
     .para1{
         margin-left: 5%;
+        margin-right: 5%;
         width: 450px;
     }
     .navbar-brand{
@@ -380,7 +381,7 @@ ol{
     box-sizing: border-box;
     height: 50px;
     font-size: 20px;
-    padding-left: 20px;
+    padding-left: 10px;
     padding-top: 7px;
     margin-bottom: 20px;
     color: white;
@@ -395,7 +396,7 @@ ol{
     display: none;
 }
 #ap{
-    padding-left: 20px;
+    padding-left: 10px;
 }
 .show-text .ans{
     display: block;
