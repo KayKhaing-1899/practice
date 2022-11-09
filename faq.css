@@ -148,7 +148,7 @@ ol{
         margin-right: 5%;
     }
     #ques{
-        font-size: 17px;
+        font-size: 16px;
     }
     .second{
         width: 100%;
@@ -192,6 +192,7 @@ ol{
     }
     #dd3,#dd4,#dd5,#dd6{
         width: 450px;
+        margin-left: 10px;
         margin-right: 10px;
     }
     #dd3,#dd5{
@@ -241,6 +242,7 @@ ol{
     }
     #dd7{
         width: 450px;
+        margin-left: 10px;
         margin-right: 10px;
         margin-bottom: 10px;
     }
