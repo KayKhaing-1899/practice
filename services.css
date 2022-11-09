@@ -144,7 +144,7 @@ ol li{
 }
 @media screen and (max-width:990px) {
     .div2{
-        width: 450px;
+        width: 430px;
     }
     .div3{
         flex-direction: column;
