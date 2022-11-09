@@ -107,6 +107,7 @@ ol li{
         width: 100%;
     }
     #dd1{
+        margin-left: 10px;
         margin-right: 10px;
     }
 }
@@ -143,7 +144,7 @@ ol li{
 }
 @media screen and (max-width:990px) {
     .div2{
-        width: 460px;
+        width: 450px;
     }
     .div3{
         flex-direction: column;
@@ -179,6 +180,7 @@ ol li{
         flex-wrap: wrap;
     }
     #dd3{
+        margin-left: 10px;
         margin-right: 10px;
     }
     .fourth{
