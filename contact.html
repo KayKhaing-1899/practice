@@ -1,120 +1,161 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
-        <link rel="stylesheet" href="contact.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    </head>
-    <body>
-        <div class="first">
-            <nav class="navbar navbar-expand-lg fixed-top" id="navibar">
-                <a href="#" class="navbar-brand"><img src="https://kayzer.netlify.app/img/core-img/logo.png">Kayzer</a>
-                <button type="button" class="navbar navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navigation">
-                    <ul class="navbar-nav">
-                        <li class="nav-item"><a href="home.html" class="nav-link">Home</a></li>
-                        <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
-                        <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
-                        <li class="nav-item"><a href="faq.html" class="nav-link">FAQ</a></li>
-                        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-                        <li class="nav-item"><button type="button" id="b1">LOGIN!</button></li>
-                    </ul>
-                </div>
-            </nav>
-            <h2 id="contact">Contact Us</h2>
-            <ol>
-                <li id="li1">HOME</li>
-                <li id="li1">/</li>
-                <li id="li1">CONTACT US</li>
-            </ol>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="first">
+      <nav class="navbar navbar-expand-lg fixed-top" id="navibar">
+        <a href="#" class="navbar-brand" id="text"
+          ><img
+            src="https://kayzer.netlify.app/img/core-img/logo.png"
+          />Kayzer</a
+        >
+        <button
+          type="button"
+          class="navbar navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navigation">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="home.html" class="nav-link" id="text">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link" id="text">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="services.html" class="nav-link" id="text">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="faq.html" class="nav-link" id="text">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link" id="text">Contact</a>
+            </li>
+            <li class="nav-item">
+              <button type="button" id="b1">LOGIN!</button>
+            </li>
+          </ul>
         </div>
+      </nav>
+      <h2 id="contact">Contact Us</h2>
+      <ol>
+        <li id="li1">HOME</li>
+        <li id="li1">/</li>
+        <li id="li1">CONTACT US</li>
+      </ol>
+    </div>
 
-        <div class="second">
-            <div class="div1">
-                <span style="color: blue;">Book Appointment Now!</span>
-                <h2 style="color: darkblue;margin-top: 20px;">Contact With Us</h2>
-                <p style="margin-top: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis <br>accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
-            </div>
-            <div class="div2">
-                <div id="tb1">
-                    <label>Name</label><br>
-                    <input type="text" name="name" id="name" required>
-                </div>
-                <div id="tb2">
-                    <label>Email</label><br>
-                    <input type="text" name="email" id="email" required>
-                </div>
-                <div id="tb3">
-                    <label>Subject</label><br>
-                    <input type="text" name="subject" id="subject" required>
-                </div>
-                <div id="tb4">
-                    <label>Message</label><br>
-                    <textarea name="message" id="message" required></textarea>
-                </div>
-            </div>
-            <button type="button" id="b3">SEND MESSAGE</button>
+    <div class="second">
+      <div class="div1">
+        <span style="color: blue">Book Appointment Now!</span>
+        <h2 style="color: darkblue; margin-top: 20px">Contact With Us</h2>
+        <p style="margin-top: 20px">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis
+          <br />accumsan nisi Ut ut felis congue nisl hendrerit commodo.
+        </p>
+      </div>
+      <div class="div2">
+        <div id="tb1">
+          <label>Name</label><br />
+          <input type="text" name="name" id="name" required />
         </div>
-        <div class="third">
-            <div class="div3">
-                <div id="dd1">
-                    <h3 style="color: white;">So What is Next?</h3>
-                    <h2 style="color: white;">Are You Ready? Let’s Work!</h2>
-                </div>
-                <div id="dd2">
-                    <button type="button" id="b2">READ MORE</button>
-                </div>
-            </div>
-            <div class="div4">
-                <div id="dd3">
-                    <p><img src="https://kayzer.netlify.app/img/core-img/logo.png" style="width: 40px;height: 40px;">Kayzer</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit ducimus voluptatibus neque illo id repellat quisquam? Autem expedita earum quae laborum ipsum ad.</p>
-                    <div>
-                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                    </div>
-                </div>
-                <div id="dd3">
-                    <h6>PRIVACY & TOS</h6>
-                    <div style="line-height: 20px;padding-top: 20px;">
-                        <a href="#" style="color: black;"><p>Advertiser Agreement</p></a>
-                        <a href="#" style="color: black;"><p>Acceptable Use Policy</p></a>
-                        <a href="#" style="color: black;"><p>Privacy Policy</p></a>
-                        <a href="#" style="color: black;"><p>Technology Privacy</p></a>
-                        <a href="#" style="color: black;"><p>Developer Agreement</p></a>
-                    </div>
-                </div>
-                <div id="dd3">
-                    <h6>NAVIGTE</h6>
-                    <div style="line-height: 20px;padding-top: 20px;">
-                        <a href="#" style="color: black;"><p>Advertisers</p></a>
-                        <a href="#" style="color: black;"><p>Developers</p></a>
-                        <a href="#" style="color: black;"><p>Resources</p></a>
-                        <a href="#" style="color: black;"><p>Company</p></a>
-                        <a href="#" style="color: black;"><p>Connect</p></a>
-                    </div>
-                </div>
-                <div id="dd3">
-                    <h6>CONTACT US</h6>
-                    <div style="line-height: 20px;padding-top: 20px;">
-                        <p>Mailing Address:xx00 E. Union Ave</p>
-                        <p>Suite 1100. Denver, CO 80237</p>
-                        <p>+999 90932 627</p>
-                        <p>support@yourdomain.com</p>
-                    </div>
-                </div>
-            </div>
+        <div id="tb2">
+          <label>Email</label><br />
+          <input type="text" name="email" id="email" required />
         </div>
+        <div id="tb3">
+          <label>Subject</label><br />
+          <input type="text" name="subject" id="subject" required />
+        </div>
+        <div id="tb4">
+          <label>Message</label><br />
+          <textarea name="message" id="message" required></textarea>
+        </div>
+      </div>
+      <button type="button" id="b3">SEND MESSAGE</button>
+    </div>
+    <div class="third">
+      <div class="div3">
+        <div id="dd1">
+          <h3 style="color: white">So What is Next?</h3>
+          <h2 style="color: white">Are You Ready? Let’s Work!</h2>
+        </div>
+        <div id="dd2">
+          <button type="button" id="b2">READ MORE</button>
+        </div>
+      </div>
+      <div class="div4">
+        <div id="dd3">
+          <p>
+            <img
+              src="https://kayzer.netlify.app/img/core-img/logo.png"
+              style="width: 40px; height: 40px"
+            />Kayzer
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit
+            ducimus voluptatibus neque illo id repellat quisquam? Autem expedita
+            earum quae laborum ipsum ad.
+          </p>
+          <div>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div id="dd3">
+          <h6>PRIVACY & TOS</h6>
+          <div style="line-height: 20px; padding-top: 20px">
+            <a href="#" style="color: black"><p>Advertiser Agreement</p></a>
+            <a href="#" style="color: black"><p>Acceptable Use Policy</p></a>
+            <a href="#" style="color: black"><p>Privacy Policy</p></a>
+            <a href="#" style="color: black"><p>Technology Privacy</p></a>
+            <a href="#" style="color: black"><p>Developer Agreement</p></a>
+          </div>
+        </div>
+        <div id="dd3">
+          <h6>NAVIGTE</h6>
+          <div style="line-height: 20px; padding-top: 20px">
+            <a href="#" style="color: black"><p>Advertisers</p></a>
+            <a href="#" style="color: black"><p>Developers</p></a>
+            <a href="#" style="color: black"><p>Resources</p></a>
+            <a href="#" style="color: black"><p>Company</p></a>
+            <a href="#" style="color: black"><p>Connect</p></a>
+          </div>
+        </div>
+        <div id="dd3">
+          <h6>CONTACT US</h6>
+          <div style="line-height: 20px; padding-top: 20px">
+            <p>Mailing Address:xx00 E. Union Ave</p>
+            <p>Suite 1100. Denver, CO 80237</p>
+            <p>+999 90932 627</p>
+            <p>support@yourdomain.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <script src="qna.js"></script>
-
-    </body>
+    <script src="qna.js"></script>
+  </body>
 </html>
